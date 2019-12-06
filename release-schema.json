@@ -7,11 +7,7 @@
             "level": {
               "title": "Nivel",
               "description": "Nivel de la parte u organización",
-              "type": [
-                "string",
-                "number",
-                "null"
-              ]
+              "type": "string"
             }
           }
         }
