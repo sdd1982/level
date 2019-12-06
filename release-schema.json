@@ -1,18 +1,24 @@
 {
   "definitions": {
+    "details": {
+      "title": "Detalles",
+      "description": "Detalles de una organizacion",
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": [
+            "number",
+            "string"
+          ],
+          "title": "nivel",
+          "description": "Nivel de la organización"
+        }
+      }
+    },
     "Organization": {
       "properties": {
         "details": {
-          "properties": {
-            "level": {
-              "type": [
-                "number",
-                "string"
-              ],
-              "title": "nivel",
-              "description": "Nivel de la organización"
-            }
-          }
+          "ref": "#/definitions/details"
         }
       }
     }
