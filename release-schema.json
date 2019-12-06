@@ -3,7 +3,6 @@
     "Organization": {
       "properties": {
         "details": {
-          "type": "object",
           "properties": {
             "level": {
               "title": "Nivel",
