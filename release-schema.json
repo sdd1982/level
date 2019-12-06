@@ -3,13 +3,15 @@
     "Organization": {
       "properties": {
         "details": {
-          "level": {
-            "type": [
-              "number",
-              "string",
-              null
-            ],
-            "title": "nivel"
+          "properties": {
+            "level": {
+              "type": [
+                "number",
+                "string"
+              ],
+              "title": "nivel",
+              "description": "Nivel de la organización"
+            }
           }
         }
       }
