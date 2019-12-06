@@ -1,11 +1,17 @@
 {
-	"name":{"en":"level"},
-	"description":{"es":"Nivel de la parte u organización"},
-	"documentationUrl":{"es":"https://github.com/sdd1982/level/blob/master/README.md"},
-	"schemas": [
-		"release-schema.json"
-	],
-	"compatibility": [
-		"1.1"
-	]
+  "name": {
+    "en": "level"
+  },
+  "description": {
+    "es": "Nivel de la parte u organización"
+  },
+  "documentationUrl": {
+    "es": "https://github.com/sdd1982/level/blob/master/README.md"
+  },
+  "schemas": [
+    "release-schema.json"
+  ],
+  "compatibility": [
+    "1.1"
+  ]
 }
